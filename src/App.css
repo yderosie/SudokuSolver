@@ -6,17 +6,43 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+html {
+  background-color: #282c34 !important;
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+body {
+  background-color: #282c34 !important;
+  color: white !important;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.margin-left {
+  margin-left: 15px;
+}
+
+table th {
+   text-align: center;
+}
+
+.table {
+   margin: auto;
+   width: 50% !important;
+}
+
+.sudoku_grid_input {
+  max-width: 568px;
+  min-width: 568px;
+}
+
+.sudoku_grid_display {
+  max-width: 442px;
+  min-width: 442px;
 }
